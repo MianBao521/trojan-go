@@ -1,0 +1,11 @@
+---
+application:
+  name: "kuhero"
+  project: "v2ray"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-kuhero"
+  routes:
+  - application_name: "kuhero"
+    paths:
+    - "/*"
